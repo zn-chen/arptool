@@ -13,4 +13,4 @@ $(DST_DIR)/arptool-1.0.0-py3-none-any.whl:
 	cp dist/arptool-1.0.0-py3-none-any.whl $(DST_DIR)/arptool-1.0.0-py3-none-any.whl
 
 clean:
-	rm -rf arptool.egg-info build dist
+	rm -rf arptool.egg-info build dist _build
