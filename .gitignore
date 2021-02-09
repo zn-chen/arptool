@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# virtualenv env
+venv
+
+# vscode config
+.vscode
+
+# build
+dist/
+build/
+arptool.egg-info
+_build/
