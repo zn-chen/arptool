@@ -73,4 +73,5 @@ async def live_host_check(host_ip: str, net_interface: Optional[str], timeout: i
         result = await wait_for(future, timeout)
     except TimeoutError:
         result = None
+    recv_task.cencal()
     return result
